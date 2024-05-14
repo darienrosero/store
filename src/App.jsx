@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import MyAccount from "./pages/myAccount.jsx";
 
 function App() {
-
   return (
     <>
-      <h1>hola</h1>
+      <MyAccount />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
