@@ -1,10 +1,16 @@
 import './App.css'
+import { DesktopMenu } from './components/desktopmenu'
+import { MobileMenu } from './components/mobilemenu'
+import { MyOrder } from './components/myorder'
+
 
 function App() {
 
   return (
     <>
-      <h1>hola</h1>
+      <DesktopMenu></DesktopMenu>
+      <MobileMenu></MobileMenu>
+      <MyOrder></MyOrder>
     </>
   )
 }
